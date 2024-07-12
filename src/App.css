@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #fff4f4 !important;
+  padding-top: 2%;
+  /* word-spacing: 15px; */
+}
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 700px !important;
+  margin: 10px;
+  padding: 10px;
+}
+
+header h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.todoinput {
+  text-align: center;
+  width: 100%;
+}
+
+.todoinput .input-group input {
+  width: 100px;
+  padding: 8px;
+  margin-right: -1px;
+}
+.todoinput input:focus {
+  outline: 1px solid;
+  border: 0;
+}
+
+.todoinput button {
+  width: 15%;
+  background: #ff3e3e !important;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-container button {
+  background: transparent;
+  border: 0;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* margin-left: 1%; */
+}
+
+.lists p {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  /* margin-right: 18%; */
+}
+
+.deleteAll {
+  float: right;
+  margin-top: 10px;
+  border: 1px solid;
+  background-color: #fff1f1;
+  padding: 10px;
+  border-radius: 3px;
+}
